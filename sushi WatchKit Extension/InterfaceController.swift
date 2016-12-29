@@ -71,9 +71,18 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate {
         //textLabel1.setAttributedText(NSAttributedString(string: mark, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: fontSize)]))
         
         speed += CGFloat(rotationalDelta) * 3.0
-        if speed >  12.0 { speed =  12.0 }
-        if speed < -12.0 { speed = -12.0 }
-        if -0.1 < speed && speed < 0.1 { speed = 0.0 }
+        if speed >  12.0 {
+            speed =  12.0
+            WKInterfaceDevice.current().play(.directionUp)
+        }
+        if speed < -12.0 {
+            speed = -12.0
+            WKInterfaceDevice.current().play(.directionDown)
+        }
+        if -0.1 < speed && speed < 0.1 {
+            speed = 0.0
+            WKInterfaceDevice.current().play(.stop)
+        }
         print("\(speed)")
     }
     

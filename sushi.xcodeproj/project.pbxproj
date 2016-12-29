@@ -569,6 +569,7 @@
 				41E9069D1E127F2000D42EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41E9069F1E127F2000D42EC6 /* Build configuration list for PBXNativeTarget "sushi WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +578,7 @@
 				41E906A11E127F2000D42EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41E906A31E127F2000D42EC6 /* Build configuration list for PBXNativeTarget "sushi" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +587,7 @@
 				41E906A51E127F2000D42EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
